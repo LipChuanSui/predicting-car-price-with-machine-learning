@@ -8,14 +8,14 @@ After that , datasets will be split into training and test sets and a number of 
 
 In Model Analysis, Predicted vs True plot, residual plot and SHAP value will be used to analysis the results. Google Colab will be used to carry out this case study.
 
-# Random Forest RMSE: 0.394800 r2_score: 0.843145 score: 0.830813
+## Random Forest RMSE: 0.394800 r2_score: 0.843145 score: 0.830813
 
-# Gradient boost with XGBoost RMSE: 0.486077 r2_score: 0.764086 score: 0.762313
+## Gradient boost with XGBoost RMSE: 0.486077 r2_score: 0.764086 score: 0.762313
 
-# Linear Regression RMSE: 0.549821 r2_score: 0.697006 score: 0.696851
+## Linear Regression RMSE: 0.549821 r2_score: 0.697006 score: 0.696851
 
-# Voting RMSE: 0.405164 r2_score: 0.835949 score: 0.829753
+## Voting RMSE: 0.405164 r2_score: 0.835949 score: 0.829753
 
 According to the results, RandomForest Regressor produces the best result with lowest RMSE, high r2_score and high cross val score. Voting method also produces good results.
 
-# Thus, RandomForestRegressor is highly recommened.
+## Thus, RandomForestRegressor is highly recommened.
